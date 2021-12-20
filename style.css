@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 button {
   border: none;
   margin: 0;
@@ -290,4 +303,118 @@ h2 {
 
 .black {
   background-color: black;
+}
+
+.registration {
+  background-color: #282828;
+  width: 1920px;
+  height: 767px;
+  position: relative;
+  padding: 129px 0 100px 0;
+}
+
+.registration-block {
+  width: 1110px;
+  height: 538px;
+  box-sizing: border-box;
+  border: 3px solid #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  justify-content: space-between;
+}
+
+.line2 {
+  width: 118px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.img-grape {
+  position: absolute;
+  top: 60px;
+  left: 375px;
+}
+
+.img-barrel {
+  position: absolute;
+  top: 64px;
+  right: 352px;
+}
+
+.registration-h2 {
+  position: absolute;
+  top: 90px;
+  left: 715px;
+  width: 490px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  background: #282828;
+}
+
+.registration-text {
+  z-index: 1;
+  text-align: center;
+  height: 72px;
+  width: 539px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+input {
+  background-color: #282828;
+  color:#fff;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row--small {
+  width: 255px;
+  height: 30px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+.input-row--small:first-child {
+  margin-right: 30px;
+}
+
+.input-row--medium {
+  border-bottom: 1px solid #ffffff;
+  width: 540px;
+  height: 30px;
+}
+
+.form-submit {
+  width: 541px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  margin: 50px 0 80px 0;
 }
